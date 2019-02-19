@@ -6,8 +6,9 @@ HTML & CSS Assignment
 ------------------------------------------------------------------------------------------------
 This assignment tests your understanding of basic HTML and CSS. You will create several files related to a recipe
 web site for a fictional pie company named Granny's Pies. Create the following files:
-<br> • index.html, the first of two web pages (with an optional CSS style sheet file); appearance is up to you
-<br> • pie.html, the second of two web pages; must match a particular specified appearance recipe.css the style sheet for pie.html For full credit, your files must be uploaded to the web and must match the guidelines in this document.
+<br> • <i>index.html</i>, the first of two web pages (with an optional CSS style sheet file); appearance is up to you
+<br> • <i>pie.html</i>, the second of two web pages; must match a particular specified appearance
+<br> • <i>recipe.css</i>, the style sheet for pie.html For full credit, your files must be uploaded to the web and must match the guidelines in this document.
 
 ## Index Page:
 <br> The first part of your task is to create a front page for this web site, stored in a file named index.html. Your front page must contain a link to pie.html . The file must also be at least <b>20 lines long and must contain at least 8 different

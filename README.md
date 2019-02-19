@@ -9,14 +9,14 @@ web site for a fictional pie company named Granny's Pies. Create the following f
 <br> • index.html, the first of two web pages (with an optional CSS style sheet file); appearance is up to you
 <br> • pie.html, the second of two web pages; must match a particular specified appearance recipe.css the style sheet for pie.html For full credit, your files must be uploaded to the web and must match the guidelines in this document.
 
-##Index Page:
+## Index Page:
 <br> The first part of your task is to create a front page for this web site, stored in a file named index.html. Your front page must contain a link to pie.html . The file must also be at least <b>20 lines long and must contain at least 8 different
 categories HTML elements in its body </b> (For example, \<h1> and \<h2> would be considered in the same category). It
 also may not significantly borrow content from your pie.html. Otherwise, this front page can have any appearance you
 like. If you like, you may use an optional CSS file with this page named index.css and submit it with your other files.
 Be creative!
 
-##Pie Recipe Page:
+## Pie Recipe Page:
 <br> The second part is to recreate a specific web page of a recipe for lemon meringue pie, stored in a file named
 pie.html. Unlike index.html, this page must exactly match the appearance specified in this document.
 You must match in appearance the pie web page shown on the next page of this document. The width of the
@@ -24,51 +24,51 @@ screenshot below is based on a browser window width of 1024px; if your screen is
 page may not exactly match. (Firefox's Web Developer Toolbar add -on can help you resize your browser to any dimension; you could use 1024x768 to compare the images.) Any line breaks shown are done automatically by the browser, except ones that are
 clearly much narrower than the page width, such as the line "One 9-inch pie":
 
-##Provided Output Text:
+## Provided Output Text:
 <br> You don't need to type in all of the text of the pie web page, only the HTML tags. There is a provided text file
 named out.txt in the support file that you can copy and paste into your text editor to get started. Then you can add
 the appropriate HTML tags to the file and save it as your .html page.
 
-##Appearance and Behavior Details:
+## Appearance and Behavior Details:
 <table>
 <li>The pie web page's title text should be Grandma's Lemon Meringue Pie .
 <li>All headings on the page should use a foreground color of #A4A400 (red=164, green=164, blue=0) and a
 background color of #F0F0F0 (red=240, green=240, blue=240).
-<li>The font families for headings are: Lucida Sans
-Unicode, Helvetica, Arial, or any sans- serif font available on the system (in that order). The page's main heading is
-aligned to the center of the page body, and uses a 22pt bold font. Other headings on the page are left-aligned and
-appear in an 18pt normal font. All headings should be underlined.
-
-<br> The overall page's body should have a white background. Text in the body should have a foreground color of #404040
-(red=64, green=64, blue=64) and use an 11pt font. The font families for page text are Georgia, Garamond, or any
-serif font available on the system. Any links on the page should use the color #A4A400 (red=164, green=164, blue=0),
-matching the color of the page headings.
-In the Ingredients list, the underlined words "tbsp" and "tsp" are abbreviations for "tablespoons" and "teaspoon"
+<li>The font families for headings are: Lucida Sans Unicode, Helvetica, Arial, or any sans- serif font available on the system (in that order).
+<li>The page's main heading is aligned to the center of the page body, and uses a 22pt bold font.
+<li> Other headings on the page are left-aligned and appear in an 18pt normal font.
+<li><b>All headings should be underlined.</b>
+<li>The overall page's body should have a white background.
+<li>Text in the body should have a foreground color of #404040 (red=64, green=64, blue=64) and use an 11pt font.
+<li>The font families for page text are Georgia, Garamond, or any serif font available on the system.
+<li>Any links on the page should use the color #A4A400 (red=164, green=164, blue=0), matching the color of the page headings.
+<li> In the Ingredients list, the underlined words "tbsp" and "tsp" are abbreviations for "tablespoons" and "teaspoon"
 respectively. When the user hovers the mouse over these abbreviations, the full word should appear as a tooltip.
-At the end of the Directions, the deleted word "cake" with a strike-out line through it is replaced by the word "pie".
-After the Links section there is a short copyright notice that appears as a section of pre-formatted text in a
+<li>At the end of the Directions, the deleted word "cake" with a strike-out line through it is replaced by the word "pie".
+<li>After the Links section there is a short copyright notice that appears as a section of pre-formatted text in a
 monospace font. The text is spaced such that the last letter lines up on horizontally for each of the three lines.
 
-Appearance and Behavior Details (continued):
-The names of the four major steps of the recipe directions (such as "Preheat Oven") are strongly emphasized. The
+## Appearance and Behavior Details (continued):
+<br> The names of the four major steps of the recipe directions (such as "Preheat Oven") are strongly emphasized. The
 quotations from the users appear in an italic font as indented blocks with background color #FFFFA8 (red=255,
 green=255, blue=168). Some words in the last quote are bolded for emphasis.
-The picture of the pie and the W3C validator images at the bottom come from the following images, respectively:
+<br> The picture of the pie and the W3C validator images at the bottom come from the following images, respectively:
 • pie.jpg
 (use an absolute URL to link to this image; don't link to a relative URL on your hard drive)
 • w3c-html.png
 • w3c-css.png
-The page bottom has four links. The "Home" link should go to your index.html page. Use a relative URL and assume
+<br> The page bottom has four links. The "Home" link should go to your index.html page. Use a relative URL and assume
 it is located on the same site and directory as pie.html. The "Search for other lemon meringue pie recipes" text, "W3C
 HTML5" button, and "W3C CSS" button should link to the following web pages, respectively:
 • http://www.google.com/search?q=lemon+meringue+pie+recipe&start=10
 • validate-html.php (this is our custom W3C HTML validator)
 • validate-css.php (this is our custom W3C CSS validator)
-All other decisions about styling on the page are left to the web browser. Any styles mentioned previously that are the
+<br> All other decisions about styling on the page are left to the web browser. Any styles mentioned previously that are the
 same as browser defaults do not have to be explicitly included in your CSS style sheet. The screenshot in this document
 was taken on Windows XP using Firefox, which may differ from the appearance on your system.
-Extra Features:
-In addition to the previous required features, you must also complete the following additional requirements in your
+
+## Extra Features:
+<br> In addition to the previous required features, you must also complete the following additional requirements in your
 pie page. These are features that may have not been covered in detail in lecture; you will have to explore your resources
 such as your textbook, lecture slides, or online references to learn how to complete these features. If you want to
 complete more than two of the extra features below, that is fine, but only two are required.
@@ -80,14 +80,15 @@ normal black circle. Use the following image: pie-icon.gif
 4. Wide headings: Place 0.25em horizontal spacing between neighboring letters in all headings on the page.
 5. Tight heading background: Make it so that the gray background behind the headings on the page is only
 behind the text itself, not stretched across the entire width of the page. (Looks nice with extra feature #1.)
-As much as possible, you should implement these changes by modifying your CSS code rather than your HTML.
+<br> As much as possible, you should implement these changes by modifying your CSS code rather than your HTML.
 Some of the CSS properties necessary will not have been covered in class, so you must learn them yourself. Try using
 the textbook or Google. There are some good HTML and CSS references such as the following sites:
 • https://www.w3schools.com/tags/
 • https://www.w3schools.com/cssref/
 A screenshot of the expected output for the extra features is available at the last page.
-Implementation and Grading:
-For full credit, your pie.html page must pass the W3C HTML5 validator with no errors (a green bar). (Your page is fine
+
+## Implementation and Grading:
+<br> For full credit, your pie.html page must pass the W3C HTML5 validator with no errors (a green bar). (Your page is fine
 as long as you see the green bar and text "This document was successfully checked as HTML5!") Choose appropriate HTML tags
 to match the structure of the content on the page. Do not express style information in HTML with inline styles or
 presentational HTML tags such as b or font. You may not use any HTML tables in your pie.html page.
@@ -102,7 +103,7 @@ that have not been discussed in lecture or the slides, through Chapters 2-3 of t
 Do not overuse HTML class and id attributes in your HTML unnecessarily. If there is already a suitable tag for
 representing a given piece of content, favor the use of that tag rather than a less appropriate tag with a class or id
 attached for styling purposes.
-Format your HTML and CSS nicely so that it is as readable as possible, similarly to the examples shown in class. Also
+<br> Format your HTML and CSS nicely so that it is as readable as possible, similarly to the examples shown in class. Also
 place a comment header in each file containing your name and section and a brief description of the assignment and
 the file's contents. You must properly use whitespace and indent your HTML and CSS code following examples shown
 in class. To keep line lengths manageable, do not place more than one block element on the same line or begin any
@@ -115,7 +116,9 @@ uses material we have not yet learned in lecture. Please do not link to external
 index.css or recipe.css) from your index.html page.
 Part of your grade will also come from successfully uploading your files to the web. You should publish your web
 pages on GitHub (github.io), so that it is possible to navigate to your page in a browser from anywhere.
-Submission:
+
+
+## Submission:
 • All development must be done with Github. Specifically, there must be at least one commit for every CSS
 selector and every major HTML element. The Github repo must remain private before the deadline and
 public after the deadline.

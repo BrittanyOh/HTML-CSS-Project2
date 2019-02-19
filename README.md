@@ -53,10 +53,9 @@ monospace font. The text is spaced such that the last letter lines up on horizon
 quotations from the users appear in an italic font as indented blocks with background color #FFFFA8 (red=255,
 green=255, blue=168). Some words in the last quote are bolded for emphasis.
 <br> The picture of the pie and the W3C validator images at the bottom come from the following images, respectively:
-• pie.jpg
-(use an absolute URL to link to this image; don't link to a relative URL on your hard drive)
-• w3c-html.png
-• w3c-css.png
+<br>• pie.jpg (use an absolute URL to link to this image; don't link to a relative URL on your hard drive)
+<br>• w3c-html.png
+<br>• w3c-css.png
 <br> The page bottom has four links. The "Home" link should go to your index.html page. Use a relative URL and assume
 it is located on the same site and directory as pie.html. The "Search for other lemon meringue pie recipes" text, "W3C
 HTML5" button, and "W3C CSS" button should link to the following web pages, respectively:
@@ -103,6 +102,7 @@ that have not been discussed in lecture or the slides, through Chapters 2-3 of t
 Do not overuse HTML class and id attributes in your HTML unnecessarily. If there is already a suitable tag for
 representing a given piece of content, favor the use of that tag rather than a less appropriate tag with a class or id
 attached for styling purposes.
+
 <br> Format your HTML and CSS nicely so that it is as readable as possible, similarly to the examples shown in class. Also
 place a comment header in each file containing your name and section and a brief description of the assignment and
 the file's contents. You must properly use whitespace and indent your HTML and CSS code following examples shown

@@ -10,31 +10,36 @@ web site for a fictional pie company named Granny's Pies. Create the following f
 <br> • pie.html, the second of two web pages; must match a particular specified appearance recipe.css the style sheet for pie.html For full credit, your files must be uploaded to the web and must match the guidelines in this document.
 
 ##Index Page:
-<br> The first part of your task is to create a front page for this web site, stored in a file named index.html. Your front page must contain a link to pie.html . The file must also be at least 20 lines long and must contain at least 8 different
-categories HTML elements in its body (For example, \<h1>\ and <h2> would be considered in the same category). It
+<br> The first part of your task is to create a front page for this web site, stored in a file named index.html. Your front page must contain a link to pie.html . The file must also be at least <b>20 lines long and must contain at least 8 different
+categories HTML elements in its body </b> (For example, \<h1> and \<h2> would be considered in the same category). It
 also may not significantly borrow content from your pie.html. Otherwise, this front page can have any appearance you
 like. If you like, you may use an optional CSS file with this page named index.css and submit it with your other files.
 Be creative!
-Pie Recipe Page:
-The second part is to recreate a specific web page of a recipe for lemon meringue pie, stored in a file named
+
+##Pie Recipe Page:
+<br> The second part is to recreate a specific web page of a recipe for lemon meringue pie, stored in a file named
 pie.html. Unlike index.html, this page must exactly match the appearance specified in this document.
 You must match in appearance the pie web page shown on the next page of this document. The width of the
 screenshot below is based on a browser window width of 1024px; if your screen is a different size, the width of your
-page may not exactly match. (Firefox's Web Developer Toolbar add -on can help you resize your browser to any dimension; you could
-use 1024x768 to compare the images.) Any line breaks shown are done automatically by the browser, except ones that are
+page may not exactly match. (Firefox's Web Developer Toolbar add -on can help you resize your browser to any dimension; you could use 1024x768 to compare the images.) Any line breaks shown are done automatically by the browser, except ones that are
 clearly much narrower than the page width, such as the line "One 9-inch pie":
-Provided Output Text:
-You don't need to type in all of the text of the pie web page, only the HTML tags. There is a provided text file
+
+##Provided Output Text:
+<br> You don't need to type in all of the text of the pie web page, only the HTML tags. There is a provided text file
 named out.txt in the support file that you can copy and paste into your text editor to get started. Then you can add
 the appropriate HTML tags to the file and save it as your .html page.
-Appearance and Behavior Details:
-The pie web page's title text should be Grandma's Lemon Meringue Pie .
-All headings on the page should use a foreground color of #A4A400 (red=164, green=164, blue=0) and a
-background color of #F0F0F0 (red=240, green=240, blue=240). The font families for headings are: Lucida Sans
+
+##Appearance and Behavior Details:
+<table>
+<li>The pie web page's title text should be Grandma's Lemon Meringue Pie .
+<li>All headings on the page should use a foreground color of #A4A400 (red=164, green=164, blue=0) and a
+background color of #F0F0F0 (red=240, green=240, blue=240).
+<li>The font families for headings are: Lucida Sans
 Unicode, Helvetica, Arial, or any sans- serif font available on the system (in that order). The page's main heading is
 aligned to the center of the page body, and uses a 22pt bold font. Other headings on the page are left-aligned and
 appear in an 18pt normal font. All headings should be underlined.
-The overall page's body should have a white background. Text in the body should have a foreground color of #404040
+
+<br> The overall page's body should have a white background. Text in the body should have a foreground color of #404040
 (red=64, green=64, blue=64) and use an 11pt font. The font families for page text are Georgia, Garamond, or any
 serif font available on the system. Any links on the page should use the color #A4A400 (red=164, green=164, blue=0),
 matching the color of the page headings.

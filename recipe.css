@@ -12,11 +12,18 @@ h1, h2{
   color: #A4A400;
   background: #F0F0F0;
   font-family: Helvetica;
+  letter-spacing: .25em;
+  display: inline;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h1{
   font-size: 22px;
   text-align: center;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
 
 h2{
@@ -35,7 +42,13 @@ a{
 }
 
 .comments{
-  color: #FFFFA8;
+  background-color: #FFFFA8;
+  display: inline-block;
+}
+
+#comment-section{
+  text-align: center
+  padding: 5px;
 }
 
 .tooltiptext {
@@ -50,4 +63,14 @@ a{
 
 .tooltip:hover ~ .tooltiptext {
   visibility: visible;
+}
+
+#validate{
+  float: left;
+}
+
+.sections:not(:last-child){
+  padding: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
 }

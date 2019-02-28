@@ -2,6 +2,11 @@
 <html>
   <head>
     <style>
+
+    body{
+      overflow: hidden;
+    }
+
     @font-face {
       font-family: Avenir;
       src: url(assets/Avenir.ttc);
@@ -18,16 +23,25 @@
         padding: 10px 5px 10px 5px;
         color: white;
         font-family: Avenir;
+        box-shadow: 2px 2px 20px rgb(0,0,0,.5);
+        font-size: 100%;
+        transition: .5s;
+      }
+
+      a:hover{
+        padding: 15px 10px 15px 10px;
+        font-size: 110%;
+        transition: .5s;
       }
 
       #container{
         text-align: center;
         width: 30%;
         height: 30%;
-        margin-top: 35%;
-        margin-bottom: 35%;
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-top: 20vh;
+        margin-bottom: 50vh;
+        margin-left: 35vw;
+        margin-right: 35vw;
       }
 
       #myVideo {
@@ -37,18 +51,40 @@
         min-width: 100%;
         min-height: 100%;
         z-index: -1;
+        opacity: .5;
+      }
+
+      h3{
+        font-size: 80%;
+        font-family: Avenir;
+      }
+
+      #footer{
+        position: fixed;
+        top: 97vh;
+        height: 3vh;
+        width: 100vw;
+        background: white;
+        z-index: 1;
+        padding: 5px;
       }
     </style>
   </head>
   <body>
+    <div id="footer">
+      <p>By Brittany Ohalete for CSCI 452/553: Network and Web Programming</p>
+    </div>
+
     <div id="container">
       <img id="logo" src="assets/pie_logo.png" alt="Pie Logo"></img>
       <br><a href="pie.html">Grandma's Receipe</a>
+      <h3>By Brittany Ohalete</p>
     </div>
 
     <video autoplay muted loop id="myVideo">
     <source src="assets/PieVideo.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
     </video>
+
   </body>
 </html>

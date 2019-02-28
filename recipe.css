@@ -2,6 +2,8 @@ body{
   background-image: url("assets/silverware.jpg");
   background-repeat: repeat;
   background-color: white;
+  padding: 5px;
+  padding-top: 15px;
 }
 
 ul.pie-slice{
@@ -13,27 +15,26 @@ h1, h2{
   background: #F0F0F0;
   font-family: Helvetica;
   letter-spacing: .25em;
-  display: inline;
+  display: inline-block;
   text-decoration: underline;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 5px;
 }
 
 h1{
-  font-size: 22px;
+  font-size: 22pt;
   text-align: center;
-  margin-left: 30vw;
-  margin-right: 30vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
 }
 
 h2{
-  font-size: 18px;
+  font-size: 18pt;
   text-align: left;
 }
 
 p, li{
   color: #404040;
-  font-size: 11px;
+  font-size: 11pt;
   font-family: Georgia;
 }
 
@@ -43,17 +44,23 @@ a{
 
 .comments{
   background-color: #FFFFA8;
-  display: inline-block;
 }
 
 #comment-section{
-  text-align: center
+  width: 90vw;
   padding: 5px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
+.pie-slice li{
+  position: relative;
+}
 .tooltiptext {
+  position: absolute;
+  top: 15px;
   visibility: hidden;
-  background-color: rgb(0,0,0,.5);
+  background-color: rgb(0,0,0,.8);
   color: white;
   text-align: center;
   padding: 2px;
@@ -72,5 +79,5 @@ a{
 .sections:not(:last-child){
   padding: 10px;
   border-bottom: 1px solid black;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }

@@ -9,7 +9,7 @@
 
       #logo{
         width: 100%;
-
+        margin-bottom: 10px;
       }
 
       a{
@@ -18,7 +18,6 @@
         padding: 10px 5px 10px 5px;
         color: white;
         font-family: Avenir;
-
       }
 
       #container{
@@ -30,6 +29,15 @@
         margin-left: 35%;
         margin-right: 35%;
       }
+
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+      }
     </style>
   </head>
   <body>
@@ -37,5 +45,10 @@
       <img id="logo" src="assets/pie_logo.png" alt="Pie Logo"></img>
       <br><a href="pie.html">Grandma's Receipe</a>
     </div>
+
+    <video autoplay muted loop id="myVideo">
+    <source src="assets/PieVideo.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+    </video>
   </body>
 </html>
